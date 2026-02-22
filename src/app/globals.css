@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* ✅ AGREGA ESTO */
+  --color-brand-red: #DC2626;
+  --color-brand-dark: #1D2E48;
+  --color-brand-light: #F8FAFC;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 60s linear infinite;
+  width: max-content;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-exo), sans-serif;
+}
