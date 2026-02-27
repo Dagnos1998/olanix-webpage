@@ -188,10 +188,10 @@ export const products = [
       { q: "Pregunta 2", a: "Respuesta 2" },
       { q: "Pregunta 3", a: "Respuesta 3" },
     ],
-    images: ["/resources/09-31X31_25X25/04-pared.png",
-      "/resources/09-31X31_25X25/03-TRAS.png",
+    images: ["/resources/09-31X31_25X25/01-DE-FRENTE.png",
       "/resources/09-31X31_25X25/02-SEPARADOS.png",
-      "/resources/09-31X31_25X25/01-DE-FRENTE.png"
+      "/resources/09-31X31_25X25/03-TRAS.png",
+      "/resources/09-31X31_25X25/04-pared.png"      
     ],
     tags: ["premium"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)"),
