@@ -160,7 +160,7 @@ export default function HomePage() {
           </p>
 
           <div className="mt-12">
-            <ProductsCarousel items={products.slice(0, 5)} />
+            <ProductsCarousel items={products} />
           </div>
         </div>
       </section>

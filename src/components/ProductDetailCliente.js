@@ -41,32 +41,31 @@ export default function ProductDetailClient({ product, related }) {
       <div className="grid gap-10 md:grid-cols-2">
         {/* Izquierda: imagen grande + thumbs */}
         <div>
-          <div className="h-[420px] rounded-2xl overflow-hidden">
+          <div className="aspect-square rounded-2xl overflow-hidden bg-white">
             {/* Placeholder visual si aún no usas next/image */}
             {/* Cuando quieras, lo cambiamos por <Image /> */}
             <img
                 src={mainImg}
                 alt={product.name}
-                className="h-full w-full object-contain"
+                className="w-full h-full object-cover"
                 />
           </div>
 
           <div className="mt-4 flex gap-4 justify-center">
             {(product.images ?? []).map((img, i) => (
                 <button
-                key={img + i}
-                type="button"
-                onClick={() => setImgIndex(i)}
-                className={`h-24 w-24 rounded-xl border overflow-hidden ${
+                  key={img + i}
+                  type="button"
+                  onClick={() => setImgIndex(i)}
+                  className={`aspect-square w-24 rounded-xl border overflow-hidden bg-white ${
                     imgIndex === i ? "border-slate-900" : "border-slate-300"
-                }`}
-                aria-label={`Imagen ${i + 1}`}
+                  }`}
                 >
-                <img
+                  <img
                     src={img}
                     alt={`${product.name} ${i + 1}`}
-                    className="h-full w-full object-contain"
-                />
+                    className="w-full h-full object-cover"
+                  />
                 </button>
             ))}
             </div>
