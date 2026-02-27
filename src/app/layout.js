@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Landing MVP",
+  title: "Olanix",
   description: "Landing de servicios",
 };
 

@@ -10,15 +10,15 @@ function waLink(productName) {
 export const products = [
   {
     id: "1",
-    slug: "tapa-registro-40x40",
-    name: "Tapa Registro 40x40",
-    summary: "Instalación rápida sin perforaciones.",
+    slug: "tapa-registro-14x14",
+    name: "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
+    summary: "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
     description:
-      "Diseñada para instalaciones limpias y eficientes gracias a su sistema adhesivo avanzado.",
+      "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
     faqs: [
       { q: "¿Cómo se instala?", a: "Se instala mediante sistema adhesivo sin perforaciones." },
       { q: "¿En qué superficies funciona?", a: "Funciona en concreto, cerámica y superficies planas." },
-      { q: "¿Qué garantía tiene?", a: "Garantía de 1 año por defectos de fabricación." },
+      { q: "¿Qué garantía tiene?", a: "" },
     ],
     images: [
       "/resources/01-14x14_10x10/1-CERRADO .png",
@@ -27,14 +27,14 @@ export const products = [
       "/resources/01-14x14_10x10/4-PARED.png"
     ],
     tags: ["interior", "adhesivo"],
-    orderUrl: waLink("Tapa Registro 40x40"),
+    orderUrl: waLink("TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)"),
   },
 
   {
     id: "2",
-    slug: "tapa-registro-50x50",
-    name: "Tapa Registro 50x50",
-    summary: "Mayor resistencia y cobertura.",
+    slug: "tapa-registro-20x20",
+    name: "TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)",
+    summary: "TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)",
     description:
       "Modelo reforzado ideal para zonas de alto tránsito y uso continuo.",
     faqs: [
@@ -43,135 +43,160 @@ export const products = [
       { q: "¿Tiene mantenimiento?", a: "No requiere mantenimiento especial." },
     ],
     images: [
-      "/resources/02-20X20_15X15/p2-main.png",
-      "/resources/02-20X20_15X15/p2-1.png",
-      "/resources/02-20X20_15X15/p2-2.png",
+      "/resources/02-20X20_15X15/1-CERRADO.png",
+      "/resources/02-20X20_15X15/2-ABIERTO.png",
+      "/resources/02-20X20_15X15/3-TRAS.png",
+      "/resources/02-20X20_15X15/4-EN-PARED-BAÑO.png",
     ],
     tags: ["exterior", "premium"],
-    orderUrl: waLink("Tapa Registro 50x50"),
+    orderUrl: waLink("TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)"),
   },
 
   {
     id: "3",
-    slug: "tapa-registro-industrial",
-    name: "Tapa Registro Industrial",
-    summary: "Solución para uso industrial.",
+    slug: "tapa-registro-20x25",
+    name: "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
+    summary: "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
     description:
-      "Diseñada para aplicaciones industriales con máxima durabilidad.",
+      "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
     faqs: [
-      { q: "¿Uso industrial?", a: "Sí, es ideal para almacenes y fábricas." },
-      { q: "¿Resistencia química?", a: "Resistente a agentes comunes." },
-      { q: "¿Certificaciones?", a: "Cumple normativas técnicas básicas." },
+      { q: "¿Uso industrial?", a: "..." },
+      { q: "¿Resistencia química?", a: "..." },
+      { q: "¿Certificaciones?", a: "..." },
     ],
     images: [
-      "/resources/03-20X25_15X20/p3-main.png",
-      "/resources/03-20X25_15X20/p3-1.png",
-      "/resources/03-20X25_15X20/p3-2.png",
+      "/resources/03-20X25_15X20/01-FRENTE.png",
+      "/resources/03-20X25_15X20/02-ABIERTO.png",
+      "/resources/03-20X25_15X20/03-TRAS.png",
+      "/resources/03-20X25_15X20/04-EN-PARED.png"
     ],
     tags: ["industrial"],
-    orderUrl: waLink("Tapa Registro Industrial"),
+    orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)"),
   },
 
   {
     id: "4",
-    slug: "tapa-registro-compacta",
-    name: "Tapa Registro Compacta",
-    summary: "Diseño discreto y elegante.",
+    slug: "tapa-registro-20x31",
+    name: "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
+    summary: "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
     description:
-      "Modelo compacto ideal para espacios reducidos y acabados finos.",
+      "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
     faqs: [
-      { q: "¿Instalación rápida?", a: "Sí, en menos de 20 minutos." },
-      { q: "¿Acabados disponibles?", a: "Disponible en varios colores." },
-      { q: "¿Durabilidad?", a: "Alta durabilidad estructural." },
+      { q: "¿Instalación rápida?", a: "..." },
+      { q: "¿Acabados disponibles?", a: "..." },
+      { q: "¿Durabilidad?", a: "..." },
     ],
-    images: ["/resources/04-20X31_15X26/p4-main.png"],
+    images: ["/resources/04-20X31_15X26/01-FRENTE.png",
+      "/resources/04-20X31_15X26/02-SEPARADO.png",
+      "/resources/04-20X31_15X26/03-TRAS.png",
+      "/resources/04-20X31_15X26/04-PARED.png"
+    ],
     tags: ["interior"],
-    orderUrl: waLink("Tapa Registro Compacta"),
+    orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)"),
   },
 
   {
     id: "5",
-    slug: "tapa-registro-premium",
-    name: "Tapa Registro Premium",
-    summary: "Máxima calidad y acabado.",
+    slug: "tapa-registro-25x25",
+    name: "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
+    summary: "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
     description:
-      "Modelo premium con materiales de alto estándar y diseño moderno.",
+      "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
     faqs: [
-      { q: "¿Incluye accesorios?", a: "Sí, incluye kit básico." },
-      { q: "¿Es desmontable?", a: "Sí, fácilmente desmontable." },
-      { q: "¿Uso recomendado?", a: "Uso residencial y comercial." },
+      { q: "¿Incluye accesorios?", a: "..." },
+      { q: "¿Es desmontable?", a: "..." },
+      { q: "¿Uso recomendado?", a: "..." },
     ],
-    images: ["/resources/05-25X25_20X20/p5-main.png"],
+    images: ["/resources/05-25X25_20X20/01-DE-FRENTE.png",
+      "/resources/05-25X25_20X20/02-SEPARADOS.png",
+      "/resources/05-25X25_20X20/03-TRAS.png",
+      "/resources/05-25X25_20X20/04-PARED.png"
+    ],
     tags: ["premium"],
-    orderUrl: waLink("Tapa Registro Premium"),
+    orderUrl: waLink("TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)"),
   },
 
   // ----------- AGREGO 10 MÁS PARA LLEGAR A 15 ------------
 
   {
     id: "6",
-    slug: "modelo-6",
-    name: "Modelo 6",
-    summary: "Resumen del producto 6.",
-    description: "Descripción del producto 6.",
+    slug: "tapa-registro-25x30",
+    name: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
+    summary: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
+    description: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
       { q: "Pregunta 3", a: "Respuesta 3" },
     ],
-    images: ["/resources/06-25X30_20X25/p6-main.png"],
+    images: ["/resources/06-25X30_20X25/01-FRENTE.png",
+      "/resources/06-25X30_20X25/02-ABIERTO.png",
+      "/resources/06-25X30_20X25/03-TRAS.png",
+      "/resources/06-25X30_20X25/04-PARED.png"
+    ],
     tags: ["adhesivo"],
-    orderUrl: waLink("Modelo 6"),
+    orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)"),
   },
 
   {
     id: "7",
-    slug: "modelo-7",
-    name: "Modelo 7",
-    summary: "Resumen del producto 7.",
-    description: "Descripción del producto 7.",
+    slug: "tapa-registro-25x45",
+    name: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
+    summary: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
+    description: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
       { q: "Pregunta 3", a: "Respuesta 3" },
     ],
-    images: ["/resources/07-25x45_20x40/p7-main.png"],
+    images: ["/resources/07-25x45_20x40/01-fron.png",
+      "/resources/07-25x45_20x40/02-separado.png",
+      "/resources/07-25x45_20x40/03-tras.png",
+      "/resources/07-25x45_20x40/04-en-casa.png"
+    ],
     tags: ["interior"],
-    orderUrl: waLink("Modelo 7"),
+    orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)"),
   },
 
   {
     id: "8",
-    slug: "modelo-8",
-    name: "Modelo 8",
-    summary: "Resumen del producto 8.",
-    description: "Descripción del producto 8.",
+    slug: "tapa-registro-30x40",
+    name: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
+    summary: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
+    description: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
       { q: "Pregunta 3", a: "Respuesta 3" },
     ],
-    images: ["/resources/08-30x40_24x34/p8-main.png"],
+    images: ["/resources/08-30x40_24x34/01-front.png",
+      "/resources/08-30x40_24x34/02-tras.png",
+      "/resources/08-30x40_24x34/03-casa.png"
+    ],
     tags: ["industrial"],
-    orderUrl: waLink("Modelo 8"),
+    orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)"),
   },
 
   {
     id: "9",
-    slug: "modelo-9",
-    name: "Modelo 9",
-    summary: "Resumen del producto 9.",
-    description: "Descripción del producto 9.",
+    slug: "tapa-registro-31x31",
+    name: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
+    summary: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
+    description: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
       { q: "Pregunta 3", a: "Respuesta 3" },
     ],
-    images: ["/resources/09-31X31_25X25/p9-main.png"],
+    images: ["/resources/09-31X31_25X25/04-pared.png",
+      "/resources/09-31X31_25X25/03-TRAS.png",
+      "/resources/09-31X31_25X25/02-SEPARADOS.png",
+      "/resources/09-31X31_25X25/01-DE-FRENTE.png"
+    ],
     tags: ["premium"],
-    orderUrl: waLink("Modelo 9"),
-  },
-
+    orderUrl: waLink("TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)"),
+  }
+/*,
   {
     id: "10",
     slug: "modelo-10",
@@ -266,5 +291,5 @@ export const products = [
     images: ["/resources/p15-main.png"],
     tags: ["exterior"],
     orderUrl: waLink("Modelo 15"),
-  },
+  },*/
 ];

@@ -10,7 +10,7 @@ export default function HomePage() {
       {/* 1) HERO (alineado a la derecha) */}
       <section className="w-full text-white relative overflow-hidden" style={{ background: "linear-gradient(135deg, #1D2E48, #2E486F)" }}>
       {/* Línea curva decorativa */}
-<svg className="absolute inset-0 w-full h-full" viewBox="0 0 1440 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<svg className="pointer-events-none absolute inset-0 w-full h-full" viewBox="0 0 1440 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stopColor="#1d2e48" />
@@ -19,7 +19,7 @@ export default function HomePage() {
   </defs>
   <path d="M-100, 250 Q500, -90 1500, 90" stroke="url(#lineGradient)" strokeWidth="1" fill="none" />
 </svg>
-        <div className="mx-auto max-w-6xl px-6 py-24">
+        <div className="relative z-10 mx-auto max-w-6xl px-6 py-24">
           <div className="flex justify-start md:justify-end">
             <div className="max-w-xl text-left">
               <h1 className="text-4xl md:text-5xl font-bold leading-tight font-[var(--font-exo)]">

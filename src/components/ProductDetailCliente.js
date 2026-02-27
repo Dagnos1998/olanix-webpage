@@ -52,7 +52,7 @@ export default function ProductDetailClient({ product, related }) {
           </div>
 
           <div className="mt-4 flex gap-4 justify-center">
-            {(product.images ?? []).slice(0, 3).map((img, i) => (
+            {(product.images ?? []).map((img, i) => (
                 <button
                 key={img + i}
                 type="button"
