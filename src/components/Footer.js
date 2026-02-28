@@ -6,6 +6,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube, FaTiktok } from "react-icons/fa";
 
+const phone = "51999999999";
+const text = encodeURIComponent("Hola, quisiera informacion.");
+const wa = "https://wa.me/" + phone + "?text=" + text;
+
 function FaqItem({ q, a, isOpen, onToggle }) {
   return (
     <div className="border-t border-gray-200 py-4">
@@ -138,16 +142,28 @@ export default function Footer() {
               </p>
               <div className="mt-6 flex gap-3">
                 {[
-                  { icon: <FaInstagram size={16} />, label: "Instagram" },
-                  { icon: <FaFacebookF size={16} />, label: "Facebook" },
-                  { icon: <FaLinkedinIn size={16} />, label: "LinkedIn" },
-                  { icon: <FaYoutube size={16} />, label: "YouTube" },
-                  { icon: <FaTiktok size={16} />, label: "TikTok" },
+                  { 
+                    icon: <FaInstagram size={16} />, 
+                    label: "Instagram",
+                    url: "https://www.instagram.com/olani.srl?igsh=OGV2YjFmeHozY2wx"
+                  },
+                  { 
+                    icon: <FaFacebookF size={16} />, 
+                    label: "Facebook",
+                    url: "https://www.facebook.com/share/1KWkkEMTnV/?mibextid=wwXIfr"
+                  },
+                  { 
+                    icon: <FaTiktok size={16} />, 
+                    label: "TikTok",
+                    url: "https://www.tiktok.com/@olanisrl?_r=1&_t=ZS-94JLWIzc7XD"
+                  },
                 ].map((x) => (
                   <a
                     key={x.label}
-                    href="#"
-                    className="h-9 w-9 rounded-md bg-slate-800 flex items-center justify-center hover:bg-slate-700"
+                    href={x.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-9 w-9 rounded-md bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition"
                     aria-label={x.label}
                   >
                     {x.icon}
@@ -164,7 +180,16 @@ export default function Footer() {
               <ul className="mt-4 space-y-3 text-sm text-slate-300">
                 <li><Link className="hover:text-white" href="/nosotros">NOSOTROS</Link></li>
                 <li><Link className="hover:text-white" href="/productos">PRODUCTOS</Link></li>
-                <li><a className="hover:text-white" href="#contacto">CONTACTO</a></li>
+                <li>
+                  <a
+                    className="hover:text-white"
+                    href={wa}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    CONTACTO
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -191,7 +216,7 @@ export default function Footer() {
             <div className="pt-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
               <Image src="/resources/LogoPiePagina.png" alt="Olanix" width={80} height={28} />
               <div className="text-xs text-slate-400">
-                Todos los derechos reservados Olanix Company ®
+                OLANI SRL - RUC 20601708478
               </div>
             </div>
           </div>
