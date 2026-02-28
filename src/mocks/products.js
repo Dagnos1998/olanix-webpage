@@ -12,9 +12,9 @@ export const products = [
     id: "1",
     slug: "tapa-registro-14x14",
     name: "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
-    summary: "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
+    summary: "",
     description:
-      "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
+      "Tapa de registro 14x14 cm, 10x10 interno, fabricada en alto impacto con protección UV. Ideal para accesos técnicos pequeños y duraderos.",
     faqs: [
       { q: "¿Cómo se instala?", a: "..." },
       { q: "¿En qué superficies funciona?", a: "..." },
@@ -34,9 +34,9 @@ export const products = [
     id: "2",
     slug: "tapa-registro-20x20",
     name: "TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)",
-    summary: "TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)",
+    summary: "",
     description:
-      "Modelo reforzado ideal para zonas de alto tránsito y uso continuo.",
+      "Tapa de registro 20x20 cm, 15x15 interno, resistente y ligera, con protección UV. Perfecta para instalaciones residenciales y comerciales.",
     faqs: [
       { q: "¿Soporta peso?", a: "..." },
       { q: "¿Es resistente al agua?", a: "..." },
@@ -56,9 +56,9 @@ export const products = [
     id: "3",
     slug: "tapa-registro-20x25",
     name: "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
-    summary: "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
+    summary: "",
     description:
-      "TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)",
+      "Tapa rectangular 20x25 cm, 15x20 interno, fabricada en alto impacto con protección UV. Ideal para sistemas eléctricos o sanitarios.",
     faqs: [
       { q: "¿Uso industrial?", a: "..." },
       { q: "¿Resistencia química?", a: "..." },
@@ -78,9 +78,9 @@ export const products = [
     id: "4",
     slug: "tapa-registro-20x31",
     name: "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
-    summary: "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
+    summary: "",
     description:
-      "TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)",
+      "Tapa rectangular 20x31 cm, 15x26 interno, resistente y duradera con protección UV. Solución práctica para accesos medianos.",
     faqs: [
       { q: "¿Instalación rápida?", a: "..." },
       { q: "¿Acabados disponibles?", a: "..." },
@@ -99,9 +99,9 @@ export const products = [
     id: "5",
     slug: "tapa-registro-25x25",
     name: "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
-    summary: "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
+    summary: "",
     description:
-      "TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)",
+      "Tapa de registro 25x25 cm, 20x20 interno, en alto impacto con protección UV. Acceso seguro y acabado profesional.",
     faqs: [
       { q: "¿Incluye accesorios?", a: "..." },
       { q: "¿Es desmontable?", a: "..." },
@@ -122,8 +122,8 @@ export const products = [
     id: "6",
     slug: "tapa-registro-25x30",
     name: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
-    summary: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
-    description: "TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)",
+    summary: "",
+    description: "Tapa de registro 25x30 cm, 20x25 interno, robusta y funcional con protección UV. Ideal para proyectos residenciales o comerciales.",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
@@ -142,8 +142,8 @@ export const products = [
     id: "7",
     slug: "tapa-registro-25x45",
     name: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
-    summary: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
-    description: "TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)",
+    summary: "",
+    description: "Nueva tapa 25x45 cm, 20x40 interno, mayor amplitud y resistencia con protección UV. Perfecta para accesos técnicos amplios.",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
@@ -162,8 +162,8 @@ export const products = [
     id: "8",
     slug: "tapa-registro-30x40",
     name: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
-    summary: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
-    description: "TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)",
+    summary: "",
+    description: "Tapa rectangular 30x40 cm, 24x34 interno, alta resistencia con protección UV. Diseñada para proyectos exigentes y mayor cobertura.",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },
@@ -181,8 +181,8 @@ export const products = [
     id: "9",
     slug: "tapa-registro-31x31",
     name: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
-    summary: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
-    description: "TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)",
+    summary: "",
+    description: "Tapa de registro 31x31 cm, 25x25 interno, máxima cobertura y resistencia con protección UV para instalaciones técnicas amplias.",
     faqs: [
       { q: "Pregunta 1", a: "Respuesta 1" },
       { q: "Pregunta 2", a: "Respuesta 2" },

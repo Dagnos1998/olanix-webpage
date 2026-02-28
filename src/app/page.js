@@ -2,32 +2,67 @@ import Link from "next/link";
 import ProductsCarousel from "../components/ProductCarousel";
 import { products } from "../mocks/products";
 import { BadgeCheck, MapPin, HandshakeIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     
     <main>
       {/* 1) HERO (alineado a la derecha) */}
-      <section className="w-full text-white relative overflow-hidden" style={{ background: "linear-gradient(135deg, #1D2E48, #2E486F)" }}>
-      {/* Línea curva decorativa */}
-<svg className="pointer-events-none absolute inset-0 w-full h-full" viewBox="0 0 1440 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stopColor="#1d2e48" />
-      <stop offset="100%" stopColor="#7aa3d4" />
-    </linearGradient>
-  </defs>
-  <path d="M-100, 250 Q500, -90 1500, 90" stroke="url(#lineGradient)" strokeWidth="1" fill="none" />
-</svg>
+      <section
+        className="w-full text-white relative overflow-hidden"
+        style={{ background: "linear-gradient(135deg, #1D2E48, #12294b)" }}
+      >
+        {/* Línea curva decorativa 
+        <svg
+          className="pointer-events-none absolute inset-0 w-full h-full"
+          viewBox="0 0 1440 400"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#1d2e48" />
+              <stop offset="100%" stopColor="#7aa3d4" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M-100, 250 Q500, -90 1500, 90"
+            stroke="url(#lineGradient)"
+            strokeWidth="1"
+            fill="none"
+          />
+        </svg>*/}
+
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
+          style={{
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0))",
+          }}
+        />
+
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-24">
-          <div className="flex justify-start md:justify-end">
+          {/* GRID 2 COLUMNAS */}
+          <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
+
+            {/* IZQUIERDA - IMAGEN */}
+            <div className="flex justify-center md:justify-start">
+              <img
+                src="/resources/producto-home.png"
+                alt="Producto"
+                className="w-[500px] md:w-[500px] object-contain"
+              />
+            </div>
+
+            {/* DERECHA - TEXTO */}
             <div className="max-w-xl text-left">
-              <h1 className="text-3xl md:text-5xl font-bold leading-tight font-[var(--font-exo)] break-words">
+              <h1 className="text-3xl md:text-5xl font-bold leading-tight font-[var(--font-exo)]">
                 Acceso limpio, rápido <br /> y sin perforaciones.
               </h1>
 
-              <p className="mt-5 text-slate-200 break-words">
-                Diseñadas para una instalación rápida gracias <br />a su sistema adhesivo, sin perforaciones.
+              <p className="mt-5 text-slate-200">
+                Diseñadas para una instalación rápida gracias <br />
+                a su sistema adhesivo, sin perforaciones.
               </p>
 
               <div className="mt-10">
@@ -39,6 +74,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -48,9 +84,16 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           {/* 2 (parte superior): izquierda título, derecha palabras grandes */}
           <div className="grid gap-10 md:grid-cols-2 md:items-start">
-            <div>
+            <div className="flex items-center gap-2">
+              <Image
+                src="/resources/logo.png"
+                alt="Olanix"
+                width={65}
+                height={65}
+                className="object-contain"
+              />
               <p className="font-bold tracking-wide text-slate-900">
-                OLANIX EN CIFRAS
+                EN CIFRAS
               </p>
             </div>
 
