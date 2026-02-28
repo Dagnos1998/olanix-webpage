@@ -100,6 +100,16 @@ export default function ProductDetailClient({ product, related }) {
               />
             ))}
           </div>
+          <div className="mt-6">
+            <a
+              href={product.techSheetUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-5 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition"
+            >
+              Descarga la ficha técnica
+            </a>
+          </div>
         </div>
       </div>
 

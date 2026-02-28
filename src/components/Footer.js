@@ -38,27 +38,27 @@ export default function Footer() {
   const faqs = [
     {
       q: "¿Cómo se instalan las tapas de registro OLANIX?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso.",
     },
     {
       q: "¿En qué superficies se pueden instalar?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas.",
     },
     {
       q: "¿Qué tamaños y formatos están disponibles?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "OLANIX ofrece tapas cuadradas y rectangulares en diversas medidas, desde 14x14 cm hasta 30x40 cm, con medidas internas optimizadas para accesos técnicos.",
     },
     {
       q: "¿Las tapas se pueden retirar o volver a instalar?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "Sí. La tapa frontal puede retirarse para realizar mantenimiento. El marco queda fijo una vez instalado correctamente con silicona.",
     },
     {
       q: "¿Dónde puedo comprar productos OLANIX?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "Puedes adquirirlos en ferreterías y distribuidores autorizados. Para información actualizada, contáctanos mediante nuestras redes sociales oficiales.",
     },
     {
       q: "¿OLANIX ofrece garantía?",
-      a: "Respuesta placeholder. Aquí irá el texto real del Figma.",
+      a: "Sí. Nuestros productos están fabricados con material de alto impacto y protección UV, garantizando durabilidad y resistencia bajo condiciones normales de uso.",
     },
   ];
 

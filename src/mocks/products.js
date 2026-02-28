@@ -18,7 +18,7 @@ export const products = [
     faqs: [
       { q: "¿Cómo se instala?", a: "..." },
       { q: "¿En qué superficies funciona?", a: "..." },
-      { q: "¿Qué garantía tiene?", a: "..." },
+      
     ],
     images: [
       "/resources/01-14x14_10x10/1-CERRADO .png",
@@ -28,6 +28,7 @@ export const products = [
     ],
     tags: ["interior", "adhesivo"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -38,9 +39,8 @@ export const products = [
     description:
       "Tapa de registro 20x20 cm, 15x15 interno, resistente y ligera, con protección UV. Perfecta para instalaciones residenciales y comerciales.",
     faqs: [
-      { q: "¿Soporta peso?", a: "..." },
-      { q: "¿Es resistente al agua?", a: "..." },
-      { q: "¿Tiene mantenimiento?", a: "..." },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: [
       "/resources/02-20X20_15X15/1-CERRADO.png",
@@ -50,6 +50,7 @@ export const products = [
     ],
     tags: ["exterior", "premium"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -60,9 +61,8 @@ export const products = [
     description:
       "Tapa rectangular 20x25 cm, 15x20 interno, fabricada en alto impacto con protección UV. Ideal para sistemas eléctricos o sanitarios.",
     faqs: [
-      { q: "¿Uso industrial?", a: "..." },
-      { q: "¿Resistencia química?", a: "..." },
-      { q: "¿Certificaciones?", a: "..." },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: [
       "/resources/03-20X25_15X20/01-FRENTE.png",
@@ -72,6 +72,7 @@ export const products = [
     ],
     tags: ["industrial"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (20X25CM EXT/15X20CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -82,9 +83,8 @@ export const products = [
     description:
       "Tapa rectangular 20x31 cm, 15x26 interno, resistente y duradera con protección UV. Solución práctica para accesos medianos.",
     faqs: [
-      { q: "¿Instalación rápida?", a: "..." },
-      { q: "¿Acabados disponibles?", a: "..." },
-      { q: "¿Durabilidad?", a: "..." },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/04-20X31_15X26/01-FRENTE.png",
       "/resources/04-20X31_15X26/02-SEPARADO.png",
@@ -93,6 +93,7 @@ export const products = [
     ],
     tags: ["interior"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (20X31CM EXT/15X26CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -103,9 +104,8 @@ export const products = [
     description:
       "Tapa de registro 25x25 cm, 20x20 interno, en alto impacto con protección UV. Acceso seguro y acabado profesional.",
     faqs: [
-      { q: "¿Incluye accesorios?", a: "..." },
-      { q: "¿Es desmontable?", a: "..." },
-      { q: "¿Uso recomendado?", a: "..." },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/05-25X25_20X20/01-DE-FRENTE.png",
       "/resources/05-25X25_20X20/02-SEPARADOS.png",
@@ -114,6 +114,7 @@ export const products = [
     ],
     tags: ["premium"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (25X25CM EXT/20X20CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   // ----------- AGREGO 10 MÁS PARA LLEGAR A 15 ------------
@@ -125,9 +126,8 @@ export const products = [
     summary: "",
     description: "Tapa de registro 25x30 cm, 20x25 interno, robusta y funcional con protección UV. Ideal para proyectos residenciales o comerciales.",
     faqs: [
-      { q: "Pregunta 1", a: "Respuesta 1" },
-      { q: "Pregunta 2", a: "Respuesta 2" },
-      { q: "Pregunta 3", a: "Respuesta 3" },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/06-25X30_20X25/01-FRENTE.png",
       "/resources/06-25X30_20X25/02-ABIERTO.png",
@@ -136,6 +136,7 @@ export const products = [
     ],
     tags: ["adhesivo"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (25X30CM EXT/20X25CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -145,9 +146,8 @@ export const products = [
     summary: "",
     description: "Nueva tapa 25x45 cm, 20x40 interno, mayor amplitud y resistencia con protección UV. Perfecta para accesos técnicos amplios.",
     faqs: [
-      { q: "Pregunta 1", a: "Respuesta 1" },
-      { q: "Pregunta 2", a: "Respuesta 2" },
-      { q: "Pregunta 3", a: "Respuesta 3" },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/07-25x45_20x40/01-fron.png",
       "/resources/07-25x45_20x40/02-separado.png",
@@ -156,6 +156,7 @@ export const products = [
     ],
     tags: ["interior"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (25X45CM EXT/20X40CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -165,9 +166,8 @@ export const products = [
     summary: "",
     description: "Tapa rectangular 30x40 cm, 24x34 interno, alta resistencia con protección UV. Diseñada para proyectos exigentes y mayor cobertura.",
     faqs: [
-      { q: "Pregunta 1", a: "Respuesta 1" },
-      { q: "Pregunta 2", a: "Respuesta 2" },
-      { q: "Pregunta 3", a: "Respuesta 3" },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/08-30x40_24x34/01-front.png",
       "/resources/08-30x40_24x34/02-tras.png",
@@ -175,6 +175,7 @@ export const products = [
     ],
     tags: ["industrial"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   },
 
   {
@@ -184,9 +185,8 @@ export const products = [
     summary: "",
     description: "Tapa de registro 31x31 cm, 25x25 interno, máxima cobertura y resistencia con protección UV para instalaciones técnicas amplias.",
     faqs: [
-      { q: "Pregunta 1", a: "Respuesta 1" },
-      { q: "Pregunta 2", a: "Respuesta 2" },
-      { q: "Pregunta 3", a: "Respuesta 3" },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
     ],
     images: ["/resources/09-31X31_25X25/01-DE-FRENTE.png",
       "/resources/09-31X31_25X25/02-SEPARADOS.png",
@@ -195,6 +195,7 @@ export const products = [
     ],
     tags: ["premium"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (31X31CM EXT/25X25CM INT)"),
+    techSheetUrl: "https://drive.google.com/file/d/1dCqdFjHg7xRlkz2GsRb_V_AnI4cuh4XA/view"
   }
 /*,
   {
