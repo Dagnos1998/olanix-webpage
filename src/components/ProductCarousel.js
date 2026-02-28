@@ -36,7 +36,7 @@ export default function ProductsCarousel({ items = [] }) {
       {/* Carrusel */}
       <div
         ref={ref}
-        className="flex gap-6 overflow-x-auto scroll-smooth pb-2"
+        className="flex overflow-x-auto scroll-smooth pb-2"
         style={{ scrollbarWidth: "none" }}
       >
         {/* ocultar scrollbar en webkit */}
@@ -50,7 +50,7 @@ export default function ProductsCarousel({ items = [] }) {
           <Link
             key={p.id}
             href={`/productos/${p.slug}`}
-            className="min-w-[280px] md:min-w-[320px] overflow-hidden rounded-2xl border border-slate-300 bg-white hover:shadow-sm"
+            className="w-[calc(100vw-24px)] md:w-[320px] shrink-0 overflow-hidden rounded-2xl hover:shadow-sm mx-3 md:mx-0 md:mr-6"
           >
             <div className="h-72 bg-white overflow-hidden flex items-center justify-center">
               <img
@@ -60,7 +60,7 @@ export default function ProductsCarousel({ items = [] }) {
               />
             </div>
 
-            <div className="h-16 bg-red-600 flex items-center px-4">
+            <div className="bg-red-600 flex items-center px-4 py-3 min-h-[64px]">
               <span className="text-white font-semibold text-sm">{p.name}</span>
             </div>
           </Link>

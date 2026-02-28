@@ -22,11 +22,11 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-24">
           <div className="flex justify-start md:justify-end">
             <div className="max-w-xl text-left">
-              <h1 className="text-4xl md:text-5xl font-bold leading-tight font-[var(--font-exo)]">
+              <h1 className="text-3xl md:text-5xl font-bold leading-tight font-[var(--font-exo)] break-words">
                 Acceso limpio, rápido <br /> y sin perforaciones.
               </h1>
 
-              <p className="mt-5 text-slate-200">
+              <p className="mt-5 text-slate-200 break-words">
                 Diseñadas para una instalación rápida gracias <br />a su sistema adhesivo, sin perforaciones.
               </p>
 
@@ -55,13 +55,13 @@ export default function HomePage() {
             </div>
 
             <div className="leading-none">
-              <p className="text-5xl md:text-6xl font-light text-slate-900">
+              <p className="text-3xl md:text-6xl font-light text-slate-900">
                 Calidad
               </p>
-              <p className="mt-4 text-5xl md:text-6xl font-light text-slate-300">
+              <p className="mt-4 text-3xl md:text-6xl font-light text-slate-300">
                 Transparencia
               </p>
-              <p className="mt-4 text-5xl md:text-6xl font-light text-slate-300">
+              <p className="mt-4 text-3xl md:text-6xl font-light text-slate-300">
                 Seguridad
               </p>
             </div>
@@ -150,14 +150,15 @@ export default function HomePage() {
     
       {/* 4) PRODUCTOS (carrusel) */}
       <section className="w-full bg-slate-50">
-        <div className="mx-auto max-w-6xl px-6 pb-24">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">
-            Encuentra el tamaño <br />y formato ideal.
-          </h2>
-
-          <p className="mt-4 text-slate-600">
-            Modelos diseñados para una instalación rápida, limpia y sin perforaciones.
-          </p>
+        <div className="mx-auto max-w-6xl pb-24">
+          <div className="px-6">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">
+              Encuentra el tamaño <br />y formato ideal.
+            </h2>
+            <p className="mt-4 text-slate-600">
+              Modelos diseñados para una instalación rápida, limpia y sin perforaciones.
+            </p>
+          </div>
 
           <div className="mt-12">
             <ProductsCarousel items={products} />

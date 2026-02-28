@@ -28,7 +28,7 @@ export default async function ProductosPage({ searchParams }) {
             <Link
               key={p.id}
               href={`/productos/${p.slug}`}
-              className="block overflow-hidden rounded-2xl hover:shadow-sm"
+              className="min-w-[85vw] md:min-w-[320px] overflow-hidden rounded-2xl hover:shadow-sm"
             >
               <div className="h-72 overflow-hidden">
                 <img
@@ -38,7 +38,7 @@ export default async function ProductosPage({ searchParams }) {
                 />
               </div>
 
-              <div className="h-16 bg-red-600 flex items-center px-4">
+              <div className="bg-red-600 flex items-center px-4 py-3 min-h-[64px]">
                 <span className="text-white font-semibold text-sm">{p.name}</span>
               </div>
             </Link>

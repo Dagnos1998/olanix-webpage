@@ -34,7 +34,7 @@ export default async function ProductDetailPage({ params }) {
 
   return (
     <main className="w-full bg-white min-h-screen">
-      <div className="mx-auto max-w-6xl px-6 py-12">
+      <div className="mx-auto max-w-6xl px-0 md:px-6 py-12">
         <ProductDetailClient product={product} related={related} />
       </div>
     </main>

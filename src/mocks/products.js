@@ -16,9 +16,9 @@ export const products = [
     description:
       "TAPA DE REGISTRO CUADRADA (14X14CM EXT/10X10CM INT)",
     faqs: [
-      { q: "¿Cómo se instala?", a: "Se instala mediante sistema adhesivo sin perforaciones." },
-      { q: "¿En qué superficies funciona?", a: "Funciona en concreto, cerámica y superficies planas." },
-      { q: "¿Qué garantía tiene?", a: "" },
+      { q: "¿Cómo se instala?", a: "..." },
+      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Qué garantía tiene?", a: "..." },
     ],
     images: [
       "/resources/01-14x14_10x10/1-CERRADO .png",
@@ -38,9 +38,9 @@ export const products = [
     description:
       "Modelo reforzado ideal para zonas de alto tránsito y uso continuo.",
     faqs: [
-      { q: "¿Soporta peso?", a: "Sí, soporta tránsito peatonal constante." },
-      { q: "¿Es resistente al agua?", a: "Sí, es resistente a humedad." },
-      { q: "¿Tiene mantenimiento?", a: "No requiere mantenimiento especial." },
+      { q: "¿Soporta peso?", a: "..." },
+      { q: "¿Es resistente al agua?", a: "..." },
+      { q: "¿Tiene mantenimiento?", a: "..." },
     ],
     images: [
       "/resources/02-20X20_15X15/1-CERRADO.png",

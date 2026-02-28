@@ -38,10 +38,10 @@ export default function ProductDetailClient({ product, related }) {
 
   return (
     <>
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="w-full grid gap-10 md:grid-cols-2 min-w-0">
         {/* Izquierda: imagen grande + thumbs */}
-        <div>
-          <div className="aspect-square rounded-2xl overflow-hidden bg-white">
+        <div className="w-full">
+          <div className="w-full min-w-0 aspect-square md:aspect-square rounded-2xl overflow-hidden bg-slate-100">
             {/* Placeholder visual si aún no usas next/image */}
             {/* Cuando quieras, lo cambiamos por <Image /> */}
             <img
@@ -51,7 +51,7 @@ export default function ProductDetailClient({ product, related }) {
                 />
           </div>
 
-          <div className="mt-4 flex gap-4 justify-center">
+          <div className="mt-4 flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" }}>
             {(product.images ?? []).map((img, i) => (
                 <button
                   key={img + i}
@@ -116,7 +116,7 @@ export default function ProductDetailClient({ product, related }) {
               href={`/productos/${p.slug}`}
               className="block overflow-hidden rounded-2xl hover:shadow-sm"
             >
-              <div className="h-72 overflow-hidden">
+              <div className="aspect-square overflow-hidden">
                 <img
                     src={p.images?.[0]}
                     alt={p.name}
