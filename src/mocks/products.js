@@ -16,8 +16,8 @@ export const products = [
     description:
       "Tapa de registro 14x14 cm, 10x10 interno, fabricada en alto impacto con protección UV. Ideal para accesos técnicos pequeños y duraderos.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
       
     ],
     images: [
@@ -39,8 +39,8 @@ export const products = [
     description:
       "Tapa de registro 20x20 cm, 15x15 interno, resistente y ligera, con protección UV. Perfecta para instalaciones residenciales y comerciales.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: [
       "/resources/02-20X20_15X15/1-CERRADO.png",
@@ -61,8 +61,8 @@ export const products = [
     description:
       "Tapa rectangular 20x25 cm, 15x20 interno, fabricada en alto impacto con protección UV. Ideal para sistemas eléctricos o sanitarios.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: [
       "/resources/03-20X25_15X20/01-FRENTE.png",
@@ -83,8 +83,8 @@ export const products = [
     description:
       "Tapa rectangular 20x31 cm, 15x26 interno, resistente y duradera con protección UV. Solución práctica para accesos medianos.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/04-20X31_15X26/01-FRENTE.png",
       "/resources/04-20X31_15X26/02-SEPARADO.png",
@@ -104,8 +104,8 @@ export const products = [
     description:
       "Tapa de registro 25x25 cm, 20x20 interno, en alto impacto con protección UV. Acceso seguro y acabado profesional.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/05-25X25_20X20/01-DE-FRENTE.png",
       "/resources/05-25X25_20X20/02-SEPARADOS.png",
@@ -126,8 +126,8 @@ export const products = [
     summary: "",
     description: "Tapa de registro 25x30 cm, 20x25 interno, robusta y funcional con protección UV. Ideal para proyectos residenciales o comerciales.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/06-25X30_20X25/01-FRENTE.png",
       "/resources/06-25X30_20X25/02-ABIERTO.png",
@@ -146,8 +146,8 @@ export const products = [
     summary: "",
     description: "Nueva tapa 25x45 cm, 20x40 interno, mayor amplitud y resistencia con protección UV. Perfecta para accesos técnicos amplios.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/07-25x45_20x40/01-fron.png",
       "/resources/07-25x45_20x40/02-separado.png",
@@ -166,8 +166,8 @@ export const products = [
     summary: "",
     description: "Tapa rectangular 30x40 cm, 24x34 interno, alta resistencia con protección UV. Diseñada para proyectos exigentes y mayor cobertura.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/08-30x40_24x34/01-front.png",
       "/resources/08-30x40_24x34/02-tras.png",
@@ -185,8 +185,8 @@ export const products = [
     summary: "",
     description: "Tapa de registro 31x31 cm, 25x25 interno, máxima cobertura y resistencia con protección UV para instalaciones técnicas amplias.",
     faqs: [
-      { q: "¿Cómo se instala?", a: "..." },
-      { q: "¿En qué superficies funciona?", a: "..." },
+      { q: "¿Cómo se instala?", a: "La instalación es rápida y sencilla. Solo debes limpiar y secar la superficie, aplicar silicona en el perímetro, retirar la cinta doble faz y fijar la tapa. Esperar 24 horas antes de su uso." },
+      { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/09-31X31_25X25/01-DE-FRENTE.png",
       "/resources/09-31X31_25X25/02-SEPARADOS.png",
