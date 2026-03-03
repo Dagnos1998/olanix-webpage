@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef } from "react";
 import Link from "next/link";
 import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -32,15 +32,29 @@ function AccordionItem({ q, a, isOpen, onToggle }) {
 
 function MobileImageCarousel({ images, name }) {
   const [current, setCurrent] = useState(0);
+  const touchStartX = useRef(null); // 👈 agregar esto
   const total = images?.length ?? 0;
 
   const prev = () => setCurrent((c) => (c - 1 + total) % total);
   const next = () => setCurrent((c) => (c + 1) % total);
 
+  // 👇 agregar estas dos funciones
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e) => {
+    if (touchStartX.current === null) return;
+    const diff = touchStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) diff > 0 ? next() : prev(); // umbral de 40px
+    touchStartX.current = null;
+  };
+
   if (!total) return null;
 
   return (
-    <div className="relative w-full">
+    
+    <div className="relative w-full" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
       <div className="w-full aspect-square rounded-2xl overflow-hidden bg-slate-100">
         <img src={images[current]} alt={`${name} ${current + 1}`} className="w-full h-full object-cover transition-opacity duration-300" />
       </div>
