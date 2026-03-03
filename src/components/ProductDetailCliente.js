@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 
 function AccordionItem({ q, a, isOpen, onToggle }) {
   return (
@@ -30,6 +30,41 @@ function AccordionItem({ q, a, isOpen, onToggle }) {
   );
 }
 
+function MobileImageCarousel({ images, name }) {
+  const [current, setCurrent] = useState(0);
+  const total = images?.length ?? 0;
+
+  const prev = () => setCurrent((c) => (c - 1 + total) % total);
+  const next = () => setCurrent((c) => (c + 1) % total);
+
+  if (!total) return null;
+
+  return (
+    <div className="relative w-full">
+      <div className="w-full aspect-square rounded-2xl overflow-hidden bg-slate-100">
+        <img src={images[current]} alt={`${name} ${current + 1}`} className="w-full h-full object-cover transition-opacity duration-300" />
+      </div>
+      {total > 1 && (
+        <>
+          <button type="button" onClick={prev} className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur-sm rounded-full p-1.5 shadow">
+            <ChevronLeft size={18} className="text-slate-700" />
+          </button>
+          <button type="button" onClick={next} className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur-sm rounded-full p-1.5 shadow">
+            <ChevronRight size={18} className="text-slate-700" />
+          </button>
+          <div className="mt-3 flex justify-center gap-1.5">
+            {images.map((_, i) => (
+              <button key={i} type="button" onClick={() => setCurrent(i)}
+                className={`h-2 rounded-full transition-all duration-300 ${i === current ? "w-5 bg-slate-900" : "w-2 bg-slate-300"}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 export default function ProductDetailClient({ product, related }) {
   const [imgIndex, setImgIndex] = useState(0);
   const [openFaq, setOpenFaq] = useState(-1);
@@ -38,37 +73,28 @@ export default function ProductDetailClient({ product, related }) {
 
   return (
     <>
-      <div className="w-full grid gap-10 md:grid-cols-2 min-w-0">
+      <div className="w-full grid gap-10 md:grid-cols-2 min-w-0 px-4 md:px-0">
         {/* Izquierda: imagen grande + thumbs */}
         <div className="w-full">
-          <div className="w-full min-w-0 aspect-square md:aspect-square rounded-2xl overflow-hidden bg-slate-100">
-            {/* Placeholder visual si aún no usas next/image */}
-            {/* Cuando quieras, lo cambiamos por <Image /> */}
-            <img
-                src={mainImg}
-                alt={product.name}
-                className="w-full h-full object-cover"
-                />
+          {/* Carrusel solo en móvil */}
+          <div className="md:hidden">
+            <MobileImageCarousel images={product.images} name={product.name} />
           </div>
 
-          <div className="mt-4 flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" }}>
-            {(product.images ?? []).map((img, i) => (
-                <button
-                  key={img + i}
-                  type="button"
-                  onClick={() => setImgIndex(i)}
-                  className={`aspect-square w-24 rounded-xl border overflow-hidden bg-white ${
-                    imgIndex === i ? "border-slate-900" : "border-slate-300"
-                  }`}
-                >
-                  <img
-                    src={img}
-                    alt={`${product.name} ${i + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </button>
-            ))}
+          {/* Imagen grande + thumbs solo en desktop */}
+          <div className="hidden md:block">
+            <div className="w-full min-w-0 aspect-square md:aspect-square rounded-2xl overflow-hidden bg-slate-100">
+              <img src={mainImg} alt={product.name} className="w-full h-full object-cover" />
             </div>
+            <div className="mt-4 flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" }}>
+              {(product.images ?? []).map((img, i) => (
+                <button key={img + i} type="button" onClick={() => setImgIndex(i)}
+                  className={`aspect-square w-24 rounded-xl border overflow-hidden bg-white flex-shrink-0 ${imgIndex === i ? "border-slate-900" : "border-slate-300"}`}>
+                  <img src={img} alt={`${product.name} ${i + 1}`} className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Derecha: info + botón pedido + FAQ */}
@@ -114,7 +140,7 @@ export default function ProductDetailClient({ product, related }) {
       </div>
 
       {/* Relacionados */}
-      <section className="mt-20">
+      <section className="mt-20 px-4 md:px-0">
         <h2 className="text-3xl font-extrabold text-slate-900">
           Productos relacionados
         </h2>
