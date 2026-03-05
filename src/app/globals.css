@@ -46,3 +46,24 @@ html, body {
   overflow-x: hidden;
   max-width: 100%;
 }
+
+.hero-section {
+  background-size: 70% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #12294b;
+}
+
+@media (max-width: 768px) {
+  
+  .hero-section h1,
+  .hero-section p {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  .hero-section {
+    background-size: cover;
+    background-position: left center; /* 👈 muestra la mitad izquierda */
+    background-repeat: no-repeat;
+    background-color: #12294b;
+  }
+}

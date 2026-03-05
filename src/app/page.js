@@ -10,8 +10,8 @@ export default function HomePage() {
     <main>
       {/* 1) HERO (alineado a la derecha) */}
       <section
-        className="w-full text-white relative overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #1D2E48, #12294b)" }}
+        className="hero-section w-full text-white relative overflow-hidden"
+        style={{ backgroundImage: "url('/resources/bg_olanix.png')" }}
       >
         {/* Línea curva decorativa 
         <svg
@@ -34,12 +34,7 @@ export default function HomePage() {
           />
         </svg>*/}
 
-        <div
-          className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
-          style={{
-            background: "linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0))",
-          }}
-        />
+        
 
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-24">
           {/* GRID 2 COLUMNAS */}
@@ -47,11 +42,7 @@ export default function HomePage() {
 
             {/* IZQUIERDA - IMAGEN */}
             <div className="flex justify-center md:justify-start">
-              <img
-                src="/resources/producto-home.png"
-                alt="Producto"
-                className="w-[500px] md:w-[500px] object-contain"
-              />
+              
             </div>
 
             {/* DERECHA - TEXTO */}

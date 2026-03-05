@@ -21,7 +21,7 @@ export const products = [
       
     ],
     images: [
-      "/resources/01-14x14_10x10/1-CERRADO .png",
+      "/resources/01-14x14_10x10/1-CERRADO.png",
       "/resources/01-14x14_10x10/2-ABIERTO.png",
       "/resources/01-14x14_10x10/3-TRAS.png",
       "/resources/01-14x14_10x10/4-PARED.png"
@@ -46,7 +46,7 @@ export const products = [
       "/resources/02-20X20_15X15/1-CERRADO.png",
       "/resources/02-20X20_15X15/2-ABIERTO.png",
       "/resources/02-20X20_15X15/3-TRAS.png",
-      "/resources/02-20X20_15X15/4-EN-PARED-BAÑO.png",
+      "/resources/02-20X20_15X15/4-PARED-BAÑO.png",
     ],
     tags: ["exterior", "premium"],
     orderUrl: waLink("TAPA DE REGISTRO CUADRADA (20X20CM EXT/15X15CM INT)"),
@@ -170,8 +170,9 @@ export const products = [
       { q: "¿En qué superficies funciona?", a: "Pueden instalarse en paredes de concreto, drywall, mayólica, cerámica u otras superficies lisas y firmes en baños, cocinas, lavanderías o áreas técnicas." },
     ],
     images: ["/resources/08-30x40_24x34/01-front.png",
-      "/resources/08-30x40_24x34/02-tras.png",
-      "/resources/08-30x40_24x34/03-casa.png"
+      "/resources/08-30x40_24x34/02-abierto.png",
+      "/resources/08-30x40_24x34/03-tras.png",
+      "/resources/08-30x40_24x34/04-pared.png"
     ],
     tags: ["industrial"],
     orderUrl: waLink("TAPA DE REGISTRO RECTANGULAR (30X40CM EXT/24X34CM INT)"),
